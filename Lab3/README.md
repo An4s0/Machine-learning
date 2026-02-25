@@ -1,9 +1,9 @@
 # ARTI308 - Machine Learning Lab 3
 
-## 1. Overview
+## Overview
 This lab focuses on the exploratory data analysis (EDA) of sales data from a coffee vending machine. The goal is to perform data cleaning, statistical summarization, and univariate visualization to understand purchasing patterns and customer preferences.
 
-## 2. Dataset Description
+## Dataset Description
 The dataset, `coffee_sales.csv`, contains detailed transaction records from a vending machine.
 
 **File Structure:**
@@ -23,14 +23,14 @@ The dataset consists of 262 rows and 5 columns.
 - **Average Price:** The mean transaction value is approximately 26.30.
 - **Price Range:** Sales range from a minimum of 15.0 to a maximum of 33.0.
 
-## 3. Lab Assessment Tasks (`lab3.ipynb`)
-The assessment notebook follows a simplified data science workflow:
-
-1. **Environment Setup:** Importing pandas, numpy, matplotlib, and seaborn, and loading the source CSV. 
-2. **Data Inspection:** Displaying the first 5 rows to understand the structure. 
-3. **Quality Check:** Verifying there are no missing values across the dataset features. 
-4. **Preprocessing:** Converting the date and datetime columns into datetime64 format. 
-5. **Descriptive Statistics:** Generating a summary of all categorical and numerical features. 
-6. **Univariate Visualization**: 
-    * **Histogram**: Visualizing the distribution of sales amounts (`money`).
-    * **Count Plot**: Comparing the frequency of different coffee types sold.
+## Lab Assessment Tasks (`lab3.ipynb`)
+1. Setup: import libraries, load CSV.
+2. Data Inspection: first rows, missing values, types.
+3. Preprocessing: convert dates, extract hour and day.
+4. Statistics: summary of numeric and categorical features.
+5. Visualization:
+   - **Univariate:** histogram, boxplot, violin, countplot, pie.
+   - **Bivariate:** boxplot/violin by cash type, barplot by coffee type, stacked bar & heatmap.
+   - **Time-Based:** revenue by hour/day, cumulative sales.
+   - **Correlation:** heatmap, pairplot.
+6. Each plot includes short explanation below it.
