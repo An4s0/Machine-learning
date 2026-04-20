@@ -1,3 +1,4 @@
+# ARTI308 - Machine Learning Lab 2
 ## Machine Learning Problem Description
 
 This project focuses on a **classification** problem using an email dataset (`email.csv`) to identify whether an email is **spam** or **ham**.
